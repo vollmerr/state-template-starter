@@ -1,44 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# state-template-starter
 
-## Available Scripts
+This is a starter repo for React projects using the [CA State Template](TODO:link...).
 
-In the project directory, you can run:
+## Why You Should Use This Project
+This project is bootstrapped off the [create-react-app](https://github.com/facebook/create-react-app) project and remains unejected, therefore it includes all functionality available in that project with having webpack configs, etc remaining out of view.
 
-### `npm start`
+This project adds the following additions:
+- eslint using [Airbnb's style guide](https://github.com/airbnb/javascript)
+- several packages, including:
+  - state-template
+    - A framework for buidling react applications using the CA state template
+  - prop-types
+    - prop type checking for components
+  - react-redux
+    - binding utilities between react and redux
+  - react-router-dom
+    - routing between components
+  - redux
+    - state management
+  - redux-actions
+    - utility for creating actions for redux
+  - redux-form
+    - forms that use redux for state management
+  - redux-saga
+    - utilities for working with sagas in redux, allowing for async actions (API calls, etc)
+  - reselect
+    - utilities for composing data selections and improving performance while using redux
+  - node-sass
+    - compiles scss files into css
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Why You Should NOT Use This Project
+This library very opinionated, as mentioned above it adds several packages that may be out of scope for your project. This project uses the [state-template]() package as a foundation for application structure, styling, and more, and requires all packages included in this project be present. There currently is no support for swapping required packages out (for example redux-saga in favor of redux-thunk).
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Install dependencies using `npm install`.
+2. Start the application using `npm start`. It should open at http://localhost:3000.
+3. Run the tests using `npm run test`. Run in watch mode using `npm run test:watch`.
+4. Build the application using `npm run build`. The project gets built to the `/build` folder.

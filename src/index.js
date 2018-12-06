@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
+import { configureStore } from 'state-template';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// STEP 1: pick colorscheme
+import 'state-template/dist/style/core/css/colorscheme-oceanside.css';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import App from './containers/App';
+
+// STEP 2: import all reducers and sagas
+import loadingDataReducer from './containers/LoadingData/reducer';
+import loadingDataSaga from './containers/LoadingData/saga';
+
+// STEP 3: register all reducers by name
+const reducers = {
+  loadingData: loadingDataReducer,
+};
+
+// STEP 4: register all sagas in the list of sagas
+const sagas = [
+  loadingDataSaga,
+];
+
+const store = configureStore({ reducers, sagas });
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root'),
+);

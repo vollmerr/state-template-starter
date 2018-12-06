@@ -13,7 +13,8 @@
     "redux-actions": "^2.6.4",
     "redux-form": "^7.4.2",
     "redux-saga": "^0.16.2",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "state-template": "0.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,9 +23,6 @@
     "test:watch": "react-scripts test --watch",
     "eject:cra": "react-scripts eject",
     "eject:example": "node ./scripts/eject.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",

@@ -28,7 +28,7 @@ export class RadioAndCheckboxesForm extends React.PureComponent {
           />
           <FieldRadioButtons
             required
-            primary
+            variant={'highlight'}
             options={nationOptions}
             name={'radio_nation_styled'}
             label={'Styled Nation Radios'}
@@ -44,13 +44,13 @@ export class RadioAndCheckboxesForm extends React.PureComponent {
           />
           <FieldCheckboxes
             required
-            primary
+            variant={'primary'}
             options={nationOptions}
             name={'check_nation_styled'}
             label={'Styled Nation Checkboxes'}
           />
         </div>
-        <Button type={'submit'} text={'Submit'} />
+        <Button type={'submit'} text={'Submit'} variant={'primary'} />
       </form>
     );
   }

@@ -27,7 +27,7 @@ export class BasicForm extends React.PureComponent {
           helpText={'password help block'}
         />
 
-        <Button type={'submit'} text={'Submit'} />
+        <Button type={'submit'} text={'Submit'} variant={'primary'} />
       </form>
     );
   }

@@ -38,7 +38,7 @@ export class ContactForm extends React.PureComponent {
           helpText={'message help block'}
         />
 
-        <Button type={'submit'} text={'Submit'} />
+        <Button type={'submit'} text={'Submit'} variant={'primary'} />
       </form>
     );
   }

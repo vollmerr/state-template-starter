@@ -47,10 +47,10 @@ export class LoadingData extends React.PureComponent {
 
     return (
       <div className={'btn-row'}>
-        <Button onClick={this.getNextData({})} text={'Load Next Data'} primary />
-        <Button onClick={this.getNextData({ withDelay: true })} text={'Delayed'} />
-        <Button onClick={this.getNextData({ withError: true })} text={'Throw Error'} standout />
-        <Button onClick={this.clearData} text={'Clear Data'} disabled={isDisabled} highlight />
+        <Button onClick={this.getNextData({})} text={'Load Next Data'} variant={'primary'} />
+        <Button onClick={this.getNextData({ withDelay: true })} text={'Delayed'} variant={'default'} />
+        <Button onClick={this.getNextData({ withError: true })} text={'Throw Error'} variant={'standout'} />
+        <Button onClick={this.clearData} text={'Clear Data'} disabled={isDisabled} variant={'highlight'} />
       </div>
     );
   }
@@ -58,7 +58,7 @@ export class LoadingData extends React.PureComponent {
   render() {
     const { exampleData } = this.props;
     const errorBtnProps = {
-      highlight: true,
+      variant: 'highlight',
       onClick: this.clearData,
       text: 'Let`s try that again...',
     };

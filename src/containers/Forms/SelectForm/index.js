@@ -27,7 +27,7 @@ export class SelectForm extends React.PureComponent {
             label={'Nation Options'}
           />
         </div>
-        <Button type={'submit'} text={'Submit'} />
+        <Button type={'submit'} text={'Submit'} variant={'primary'} />
       </form>
     );
   }

@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { Button, ErrorSection, LoadingSection } from 'state-template';
 
+import Page from '../../components/Page';
 import List from '../../components/List';
 
 import * as actions from './actions';
@@ -64,12 +65,14 @@ export class LoadingData extends React.PureComponent {
     };
 
     return (
-      <ErrorSection btnProps={errorBtnProps}>
-        <h1>Example of Loading Data</h1>
-        <List data={exampleData} />
-        <LoadingSection />
-        {this.renderButtons()}
-      </ErrorSection>
+      <Page>
+        <ErrorSection btnProps={errorBtnProps}>
+          <h1>Example of Loading Data</h1>
+          <List data={exampleData} />
+          <LoadingSection />
+          {this.renderButtons()}
+        </ErrorSection>
+      </Page>
     );
   }
 }

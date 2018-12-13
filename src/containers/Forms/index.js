@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Page from '../../components/Page';
 import BasicForm from './BasicForm';
 import ContactForm from './ContactForm';
 import RadioAndCheckboxesForm from './RadioAndCheckboxesForm';
@@ -9,7 +10,7 @@ import SelectForm from './SelectForm';
 export class Forms extends React.PureComponent {
   render() {
     return (
-      <div>
+      <Page>
         <h1>Forms</h1>
 
         <p>
@@ -35,7 +36,7 @@ to see the state as you enter data.
         <h2>Selects</h2>
         <SelectForm />
 
-      </div>
+      </Page>
     );
   }
 }

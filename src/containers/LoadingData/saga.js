@@ -13,7 +13,7 @@ export function* getExampleData(action) {
 
   try {
     const url = `https://jsonplaceholder.typicode.com/todos?_page=${page}&_limit=2`;
-    const data = yield call(api.requestWithToken, url);
+    const data = yield call(api.request, url);
     if (withDelay) {
       yield delay(2000);
     }

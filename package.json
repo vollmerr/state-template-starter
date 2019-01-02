@@ -17,8 +17,14 @@
     "state-template": "0.0.23"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start:local": "env-cmd .env.local react-scripts start",
+    "start:staging": "env-cmd .env.staging react-scripts start",
+    "start:dev": "env-cmd .env.dev react-scripts start",
+    "start:prod": "env-cmd .env.prod react-scripts start",
+    "build:local": "env-cmd .env.local react-scripts build",
+    "build:staging": "env-cmd .env.staging react-scripts build",
+    "build:dev": "env-cmd .env.dev react-scripts build",
+    "build:prod": "env-cmd .env.prod react-scripts build",
     "test": "react-scripts test --coverage",
     "test:watch": "react-scripts test --watch",
     "eject:cra": "react-scripts eject",
@@ -31,6 +37,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "env-cmd": "^8.0.2",
     "eslint-config-airbnb": "^17.1.0",
     "node-sass": "^4.11.0"
   }

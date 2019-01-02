@@ -12,7 +12,7 @@ export function* getExampleData(action) {
   const { page, withDelay, withError } = action.payload;
 
   try {
-    const url = `https://jsonplaceholder.typicode.com/todos?_page=${page}&_limit=2`;
+    const url = `${process.env.REACT_APP_EXAMPLE_API}/todos?_page=${page}&_limit=2`;
     const data = yield call(api.request, url);
     if (withDelay) {
       yield delay(2000);

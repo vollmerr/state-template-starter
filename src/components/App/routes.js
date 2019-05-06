@@ -1,7 +1,5 @@
-import Forms from '../Forms';
-import Help from '../Help';
 import Home from '../Home';
-import LoadingData from '../LoadingData';
+import Help from '../Help';
 
 // order here determines order in navigation menu
 export const routesByKey = {
@@ -12,22 +10,6 @@ export const routesByKey = {
     exact: true,
     icon: 'ca-gov-icon-home',
     component: Home,
-  },
-  forms: {
-    key: 'forms',
-    name: 'Forms',
-    path: '/forms',
-    exact: true,
-    icon: 'ca-gov-icon-pencil-edit',
-    component: Forms,
-  },
-  loadingData: {
-    key: 'loadingData',
-    name: 'Loading Data',
-    path: '/loadingData',
-    exact: true,
-    icon: 'ca-gov-icon-download',
-    component: LoadingData,
   },
   help: {
     key: 'help',

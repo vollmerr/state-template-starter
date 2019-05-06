@@ -3,23 +3,18 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from 'state-template';
 
-// STEP 1: pick colorscheme
-import 'state-template/dist/style/core/css/colorscheme-oceanside.css';
+import 'state-template/dist/style/core/css/colorscheme-oceanside.min.css';
 
-import App from './containers/App';
+import App from './components/App';
+import { reducer as home, saga as homeSaga } from './components/Home';
 
-// STEP 2: import all reducers and sagas
-import loadingDataReducer from './containers/LoadingData/reducer';
-import loadingDataSaga from './containers/LoadingData/saga';
 
-// STEP 3: register all reducers by name
 const reducers = {
-  loadingData: loadingDataReducer,
+  home,
 };
 
-// STEP 4: register all sagas in the list of sagas
 const sagas = [
-  loadingDataSaga,
+  homeSaga,
 ];
 
 const store = configureStore({ reducers, sagas });

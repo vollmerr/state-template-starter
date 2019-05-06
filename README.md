@@ -73,6 +73,6 @@ env 1 | target 1 | url 1
 
 
 ### Environment Variables
-Environments can be configured using the `.env.<ENV>`, where `<ENV>` is the environment. For example, `.env.local` targets running the application locally. 
+Environments can be configured using the `.env.<ENV>`, where `<ENV>` is the environment. For example, `.env.local` targets running the application locally. Copy the `.env.sample` to the corresponding environment name to get started.
 
 **create-react-app** requires all environment variables to be prefixed with `REACT_APP_`, for example use `REACT_APP_API_URL` instead of `API_URL`. Environment variables without the prefix will be stripped out.

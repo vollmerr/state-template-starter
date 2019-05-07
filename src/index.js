@@ -8,7 +8,6 @@ import 'state-template/dist/style/core/css/colorscheme-oceanside.min.css';
 import App from './components/App';
 import { reducer as home, saga as homeSaga } from './components/Home';
 
-
 const reducers = {
   home,
 };

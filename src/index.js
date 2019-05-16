@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from 'state-template';
 
+import 'state-template/dist/style/core/css/cagov.core.min.css';
 import 'state-template/dist/style/core/css/colorscheme-oceanside.min.css';
 
 import App from './components/App';

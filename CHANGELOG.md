@@ -1,5 +1,13 @@
 # state-template-starter - Change Log
 
+## v0.0.3 (2019-05-16)
+
+- bump versions
+  - state-template v0.3.0
+- import core state-template style
+- add source map analyzing
+- fix test commands
+
 ## v0.0.2 (2019-05-07)
 
 - update/cleanup readme

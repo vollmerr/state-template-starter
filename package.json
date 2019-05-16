@@ -1,6 +1,6 @@
 {
   "name": "state-template-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "start:local": "env-cmd -f .env.local react-scripts start",
     "start:staging": "env-cmd -f .env.staging react-scripts start",
@@ -10,8 +10,9 @@
     "build:staging": "env-cmd -f .env.staging react-scripts build",
     "build:dev": "env-cmd -f .env.dev react-scripts build",
     "build:prod": "env-cmd -f .env.prod react-scripts build",
-    "test": "react-scripts test --coverage --transformIgnorePatterns \"node_modules/(?!(state-template))/\"",
-    "test:watch": "react-scripts test --watch --transformIgnorePatterns \"node_modules/(?!(state-template))/\""
+    "test": "react-scripts test --coverage --watchAll=false --transformIgnorePatterns \"node_modules/(?!(state-template))/\"",
+    "test:watch": "react-scripts test --transformIgnorePatterns \"node_modules/(?!(state-template))/\"",
+    "analyze": "source-map-explorer ./build/static/js/*.js"
   },
   "browserslist": [
     ">0.2%",
@@ -25,22 +26,22 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0",
+    "react-scripts": "3.0.1",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.5",
     "redux-form": "^8.2.0",
     "redux-saga": "^1.0.2",
     "reselect": "^4.0.0",
-    "state-template": "^0.2.8"
+    "state-template": "^0.3.0"
   },
   "devDependencies": {
     "env-cmd": "^9.0.1",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-adapter-react-16": "^1.13.0",
     "enzyme-to-json": "^3.3.5",
     "eslint-config-airbnb": "^17.1.0",
     "mockdate": "^2.0.2",
-    "node-sass": "^4.12.0"
+    "source-map-explorer": "^1.8.0"
   },
   "jest": {
     "resetMocks": true,

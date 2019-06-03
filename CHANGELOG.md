@@ -1,5 +1,9 @@
 # state-template-starter - Change Log
 
+## v0.0.4
+
+- bump versions
+  
 ## v0.0.3 (2019-05-16)
 
 - bump versions

@@ -37,7 +37,7 @@ It also uses the [state-template](https://www.npmjs.com/package/state-template) 
 ## Quick Start
 1. **Clone the Repo**: `git clone https://github.com/vollmerr/state-template-starter.git`
 2. **Setup Environment Variables**: Copy the `.env.sample` to `.env.local`
-3. **Start Locally**: `npm run start:local` then navigate to http://localhost:3000.
+3. **Start Locally**: `npm run start:local` then navigate to http://localhost:3000
 
 ## Running Locally
 Use `npm run start:<ENV>`, where `<ENV>` is the environment target. 

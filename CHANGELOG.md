@@ -3,6 +3,7 @@
 ## v0.0.4
 
 - bump versions
+- add version number to sample .env file
   
 ## v0.0.3 (2019-05-16)
 

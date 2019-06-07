@@ -1,5 +1,10 @@
 # state-template-starter - Change Log
 
+## v0.0.6
+
+- use react-app-polyfill/stable in favor of deprecated @babel/polyfill
+- move react-scripts to dev dependencies
+
 ## v0.0.5 (2019-06-07)
 
 - add IE 11 support

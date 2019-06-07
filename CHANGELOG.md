@@ -1,12 +1,12 @@
 # state-template-starter - Change Log
 
-## v0.0.5 (2019-05-07)
+## v0.0.5 (2019-06-07)
 
 - add IE 11 support
 - add @babel/polyfill and react-app-polyfill
 - bump versions (dev)
 
-## v0.0.4 (2019-05-04)
+## v0.0.4 (2019-06-04)
 
 - bump versions
 - add version number to sample .env file

@@ -1,19 +1,27 @@
 # state-template-starter - Change Log
 
+## v0.0.6 (2019-06-10)
+
+- use react-app-polyfill/stable in favor of deprecated @babel/polyfill
+- move react-scripts to dev dependencies
+- add service worker
+- update dependency versions
+  - state-template v0.3.4
+
 ## v0.0.5 (2019-06-07)
 
 - add IE 11 support
 - add @babel/polyfill and react-app-polyfill
-- bump versions (dev)
+- update dependency versions (dev)
 
 ## v0.0.4 (2019-06-04)
 
-- bump versions
+- update dependency versions
 - add version number to sample .env file
   
 ## v0.0.3 (2019-05-16)
 
-- bump versions
+- update dependency versions
   - state-template v0.3.0
 - import core state-template style
 - add source map analyzing
@@ -23,11 +31,12 @@
 
 - update/cleanup readme
 - add license
-- bump state-template v0.2.8
+- update dependency versions
+  - state-template v0.2.8
 
 ## v0.0.1 (2019-05-06)
 
 - initialize from state-template's example folder
 - ignore .env files, add sample
-- bump all package versions to latest
+- update dependency versions
 - add examples for using redux in Home

@@ -1,10 +1,10 @@
-import '@babel/polyfill';
 import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { configureStore } from 'state-template';
+import { configureStore, serviceWorker } from 'state-template';
 
 import 'state-template/dist/style/core/css/cagov.core.min.css';
 import 'state-template/dist/style/core/css/colorscheme-oceanside.min.css';
@@ -28,3 +28,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root'),
 );
+
+serviceWorker.register();

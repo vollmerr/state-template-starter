@@ -4,6 +4,7 @@
 
 - use react-app-polyfill/stable in favor of deprecated @babel/polyfill
 - move react-scripts to dev dependencies
+- add service worker
 
 ## v0.0.5 (2019-06-07)
 

@@ -1,6 +1,6 @@
 {
   "name": "state-template-starter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "start:local": "env-cmd -f .env.local react-scripts start",
     "start:staging": "env-cmd -f .env.staging react-scripts start",
@@ -15,10 +15,9 @@
     "analyze": "source-map-explorer ./build/static/js/*.js"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    "last 2 versions",
+    "> 1%",
+    "IE 11"
   ],
   "dependencies": {
     "prop-types": "^15.7.2",
@@ -30,9 +29,9 @@
     "redux": "^4.0.1",
     "redux-actions": "^2.6.5",
     "redux-form": "^8.2.3",
-    "redux-saga": "^1.0.2",
+    "redux-saga": "^1.0.3",
     "reselect": "^4.0.0",
-    "state-template": "^0.3.2"
+    "state-template": "^0.3.4"
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",

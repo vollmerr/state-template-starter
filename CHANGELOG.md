@@ -1,5 +1,12 @@
 # state-template-starter - Change Log
 
+## 0.0.7 (2019-06-25)
+
+- add node/npm versions
+- update readme
+- update dependency versions
+  - state-template v0.3.4
+  
 ## v0.0.6 (2019-06-10)
 
 - use react-app-polyfill/stable in favor of deprecated @babel/polyfill

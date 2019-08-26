@@ -1,15 +1,15 @@
-import * as actions from './actions';
-import * as constants from './constants';
-import reducer from './reducer';
-import saga from './saga';
-import * as selectors from './selectors';
+import * as homeActions from './actions';
+import * as homeConstants from './constants';
+import homeReducer from './reducer';
+import homeSaga from './saga';
+import * as homeSelectors from './selectors';
 
 export {
-  actions,
-  constants,
-  reducer,
-  saga,
-  selectors,
+  homeActions,
+  homeConstants,
+  homeReducer,
+  homeSaga,
+  homeSelectors,
 };
 
 export { default } from './Home';

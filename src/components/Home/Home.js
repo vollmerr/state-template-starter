@@ -30,7 +30,7 @@ export class Home extends React.Component {
         <ConnectedAsync>
           <ul>
             {
-              exampleData.map(x => (
+              exampleData.map((x) => (
                 <li key={x.id}>{JSON.stringify(x)}</li>
               ))
             }
@@ -42,7 +42,9 @@ export class Home extends React.Component {
 }
 
 Home.propTypes = {
-  exampleData: T.array.isRequired,
+  exampleData: T.arrayOf(
+    T.shape({ id: T.number }),
+  ).isRequired,
   lastFetched: T.number,
   getExampleData: T.func.isRequired,
 };
@@ -56,7 +58,7 @@ export const mapStateToProps = createStructuredSelector({
   lastFetched: selectors.getLastFetched(),
 });
 
-export const mapDispatchToProps = dispatch => ({
+export const mapDispatchToProps = (dispatch) => ({
   getExampleData: () => dispatch(actions.getExampleData()),
 });
 

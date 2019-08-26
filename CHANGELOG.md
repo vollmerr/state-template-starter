@@ -1,5 +1,10 @@
 # state-template-starter - Change Log
 
+## 0.1.0 (2018-08-26)
+
+- (chore) update dependency versions
+  - eslint-config-airbnb v18
+
 ## 0.0.9 (2019-08-09)
 
 - (chore) update dependency versions

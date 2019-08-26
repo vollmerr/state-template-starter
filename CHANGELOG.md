@@ -5,6 +5,7 @@
 - (chore) update dependency versions
   - eslint-config-airbnb v18
 - (fix) all eslint issues / update to latest rules
+- (refactor) namespace component exports
 
 ## 0.0.9 (2019-08-09)
 

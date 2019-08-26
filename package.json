@@ -12,7 +12,8 @@
     "build:prod": "env-cmd -f .env.prod react-scripts build",
     "test": "react-scripts test --coverage --watchAll=false --transformIgnorePatterns \"node_modules/(?!(state-template))/\"",
     "test:watch": "react-scripts test --transformIgnorePatterns \"node_modules/(?!(state-template))/\"",
-    "analyze": "source-map-explorer ./build/static/js/*.js"
+    "analyze": "source-map-explorer ./build/static/js/*.js",
+    "lint": "eslint src/**/*.js"
   },
   "engines": {
     "npm": ">=5",

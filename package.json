@@ -1,6 +1,6 @@
 {
   "name": "state-template-starter",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "scripts": {
     "start:local": "env-cmd -f .env.local react-scripts start",
     "start:staging": "env-cmd -f .env.staging react-scripts start",
@@ -36,7 +36,7 @@
     "redux-form": "^8.2.6",
     "redux-saga": "^1.0.5",
     "reselect": "^4.0.0",
-    "state-template": "^0.4.4"
+    "state-template": "^0.4.5"
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",

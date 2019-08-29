@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly 1`] = `
+<Page
+  bannerSrc={null}
+  className={null}
+  title="Form"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="exampleName"
+    getFormState={[Function]}
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+  >
+    <Section1 />
+    <Section2 />
+    <Button
+      active={false}
+      className=""
+      iconProps={null}
+      tag="button"
+      text="Submit"
+      type="submit"
+      variant="primary"
+    />
+  </ReduxForm>
+</Page>
+`;

@@ -3,6 +3,7 @@
 ## 0.1.1 (2018-08-29)
 
 - (chore) update dependency versions
+- (feat) add basic example of using forms
 
 ## 0.1.0 (2018-08-26)
 

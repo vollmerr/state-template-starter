@@ -1,5 +1,6 @@
 import Home from '../Home';
 import Help from '../Help';
+import Form from '../Form';
 
 // order here determines order in navigation menu
 export const routesByKey = {
@@ -10,6 +11,14 @@ export const routesByKey = {
     exact: true,
     icon: 'ca-gov-icon-home',
     component: Home,
+  },
+  form: {
+    key: 'form',
+    name: 'Form',
+    path: '/form',
+    exact: true,
+    icon: 'ca-gov-icon-pencil-edit',
+    component: Form,
   },
   help: {
     key: 'help',

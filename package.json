@@ -41,6 +41,7 @@
     "state-template": "^0.4.8"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "env-cmd": "^10.0.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",

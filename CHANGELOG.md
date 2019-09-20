@@ -4,6 +4,7 @@
 
 - (chore) update dependency versions
 - (fix) license, author, and description to CDT information
+- (fix) tests, add types for jest intellisense
 
 ## 0.1.1 (2019-08-29)
 

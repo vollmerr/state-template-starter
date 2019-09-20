@@ -1,5 +1,7 @@
 {
   "name": "state-template-starter",
+  "description": "Starter kit for CA State template styled React projects using the state-template package.",
+  "author": "California Department of Technology",
   "version": "0.1.2",
   "scripts": {
     "start:local": "env-cmd -f .env.local react-scripts start",

@@ -3,6 +3,7 @@
 ## 0.1.2 (2019-09-20)
 
 - (chore) update dependency versions
+- (fix) license, author, and description to CDT information
 
 ## 0.1.1 (2019-08-29)
 

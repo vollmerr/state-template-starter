@@ -29,6 +29,7 @@ exports[`Form should render correctly 1`] = `
     <Section2 />
     <Button
       active={false}
+      baseClass="btn"
       className=""
       iconProps={null}
       tag="button"

@@ -1,11 +1,17 @@
 # state-template-starter - Change Log
 
-## 0.1.1 (2018-08-29)
+## 0.1.2 (2019-09-20)
+
+- (chore) update dependency versions
+- (fix) license, author, and description to CDT information
+- (fix) tests, add types for jest intellisense
+
+## 0.1.1 (2019-08-29)
 
 - (chore) update dependency versions
 - (feat) add basic example of using forms
 
-## 0.1.0 (2018-08-26)
+## 0.1.0 (2019-08-26)
 
 - (chore) update dependency versions
   - eslint-config-airbnb v18

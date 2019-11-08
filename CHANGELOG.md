@@ -1,5 +1,9 @@
 # state-template-starter - Change Log
 
+## 0.1.3 (2019-10-31)
+
+- (chore) update dependency versions
+
 ## 0.1.2 (2019-09-20)
 
 - (chore) update dependency versions

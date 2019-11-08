@@ -2,6 +2,7 @@
 
 ## 0.2.0 (2019-11-08)
 
+- (chore) update dependency versions
 - (refactor) use new env var file naming, update docs
 
 ## 0.1.3 (2019-10-31)

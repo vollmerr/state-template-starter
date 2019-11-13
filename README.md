@@ -1,3 +1,5 @@
+***THIS PROJECT HAS MOVED TO https://odibpas.visualstudio.com/React%20State%20Template/_git/React%20State%20Template%20Starter***
+
 # state-template-starter
 
 This is a starter repo for projects using the [state-template](https://github.com/vollmerr/state-template) package.
